@@ -47,7 +47,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost' || strstr($_SERVER['HTTP_HOST'],'192.16
          var _gaq = [
              ['_setAccount', 'UA-XXXXX-X'],
              ['_trackPageview'],
-             //['_trackPageLoadTime']
+             ['_trackPageLoadTime']  //the tracking of page load time was restored because Joe said he needed it
          ];
          (function (d, t) {
              var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
